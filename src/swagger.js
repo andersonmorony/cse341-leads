@@ -5,8 +5,8 @@ const doc = {
         title: "CSE-341 Leads API",
         description: "API for CSE341 Leads",
     },
-    host: "cse341-leads.onrender.com",
-    schemes: ['https'],
+    host: "localhost:3300",
+    schemes: ['https', 'http'],
 };
 
 const outputFile = './swagger_output.json';
