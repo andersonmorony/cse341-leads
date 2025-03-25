@@ -5,7 +5,7 @@ const doc = {
         title: "CSE-341 Leads API",
         description: "API for CSE341 Leads",
     },
-    host: "localhost:3300",
+    host: "cse341-leads.onrender.com",
     schemes: ['https', 'http'],
 };
 
