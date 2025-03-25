@@ -5,10 +5,9 @@
     "description": "API for CSE341 Leads",
     "version": "1.0.0"
   },
-  "host": "localhost:3300",
+  "host": "https://cse341-leads.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
@@ -101,9 +100,6 @@
         "responses": {
           "200": {
             "description": "OK"
-          },
-          "500": {
-            "description": "Internal Server Error"
           }
         }
       },
@@ -175,9 +171,6 @@
         "responses": {
           "204": {
             "description": "No Content"
-          },
-          "500": {
-            "description": "Internal Server Error"
           }
         }
       }
